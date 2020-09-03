@@ -1,0 +1,88 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/index/index/index",//首页
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/my/my",//个人中心
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/publishArticles/publishArticles",//发布文章
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/releaseVideo/releaseVideo",//发布视频
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/successPage/successPage",//发布成功
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/user_info/user_info",//用户信息
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/add_tag/add_tag",//添加标签
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/user_id/user_id",//完善用户身份证
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/work_certificate/work_certificate",//完善工作证明
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/fans/fans",//粉丝量
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/list_all/list_all",//文章，视频，回放，回答列表页
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/article_details/article_details",//文章或音频文章
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/video_details/video_details",//视频或直播回放页面
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/question_and_answer/question_and_answer",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom" ,
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "金沙滩",
+		"navigationBarBackgroundColor": "#333399",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#003399",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+		"iconWidth":"25",
+	    "list": [{
+	        "pagePath": "pages/index/index/index",
+	        "iconPath": "static/images/index.png",
+	        "selectedIconPath": "static/images/indexActive.png",
+	        "text": "首页"
+	    },{
+	        "pagePath": "pages/my/my/my",
+	        "iconPath": "static/images/my.png",
+	        "selectedIconPath": "static/images/myActive.png",
+	        "text": "我的"
+	    }]
+	}
+}

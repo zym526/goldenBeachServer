@@ -1,0 +1,134 @@
+page{
+	.article_details{
+		.slot-wrap {
+			.icon{
+				font-size: 38rpx;
+				margin-right: 24rpx;
+				color: #fff;
+			}
+		}
+		.no_icon{
+			.icon{
+				color: #232323!important;
+			}
+		}
+		.special_column{
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			color: #FFCC66;
+			font-size: 28rpx;
+			line-height: 32rpx;
+			margin: 144rpx 26rpx 21rpx;
+			.icon{
+				font-size: 32rpx;
+				margin-right: 9rpx;
+			}
+		}
+		.special_column_title{
+			font-size: 36rpx;
+			color: #003399;
+			padding: 30rpx 26rpx 50rpx;
+			background: rgba(255, 204, 102, 0.8);
+		}
+		.article{
+			border-radius: 20rpx 20rpx 0rpx 0rpx;
+			margin-top: -20rpx;
+			background-color: #FFFFFF;
+			padding: 26rpx;
+			box-sizing: border-box;
+			.article_title{
+				font-size: 50rpx;
+				color: #232323;
+				font-weight: bold;
+			}
+			.tag_all{
+				margin: 20rpx 0rpx 0rpx;
+				display: flex;
+				flex-wrap: wrap;
+				.tag{
+					font-size: 24rpx;
+					line-height: 42rpx;
+					padding: 0rpx 18rpx;
+					color: #003399;
+					background-color: #FFCC33;
+					border-radius: 10rpx;
+					text-align: center;
+					margin-right: 20rpx;
+					margin-bottom: 20rpx;
+				}
+			}
+			.author{
+				display: flex;
+				justify-content: space-between;
+				font-size: 24rpx;
+				color: #666666;
+				padding-bottom: 18rpx;
+				border-bottom: 1rpx solid rgba(223, 223, 223, 0.5);
+				margin-top: 20rpx;
+				.author_time{
+					text{
+						margin-right: 10rpx;
+						&:first-child{
+							padding-right: 10rpx;
+							border-right: 1rpx solid #DFDFDF;
+						}
+					}
+				}
+			}
+			.article_content{
+				padding: 30rpx 0rpx 41rpx;
+				.audio_outer{
+					height: 88rpx;
+					width: 100%;
+					border-radius: 88rpx;
+					background-color: #F0F0F0;
+					font-size: 30rpx;
+					color: #999999;
+					display: flex;
+					justify-content: space-between;
+					padding: 0rpx 30rpx;
+					align-items: center;
+					margin-bottom: 26rpx;
+					.audio_play_left{
+						display: flex;
+						align-items: center;
+						.audio_play_image{
+							font-size: 0rpx;
+							margin-right: 20rpx;
+							image{
+								width: 50rpx;
+								height: auto;
+							}
+						}
+					}
+				}
+				video{
+					width: 100%;
+				}
+				.content_outer{
+					& /deep/ .contheight{
+						width: 100%!important;
+					}
+				}
+				.look_like{
+					margin-top: 20rpx;
+					font-size: 22rpx;
+					color: #999999;
+				}
+			}
+		}
+		.outer_popup{
+			view{
+				padding: 50rpx 0rpx;
+				text-align: center;
+				font-size: 32rpx;
+				color: #999999;
+			}
+			.delete_text{
+				color: #E9434C;
+				border-bottom: 1rpx solid rgba(0,0,0,0.1);
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+.index{
+	.top_bg{
+		width: 100%;
+		height: 150rpx;
+		background-color: #003399;
+		color: #FFFFFF;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		position: relative;
+		padding-left: 26rpx;
+		box-sizing: border-box;
+		.one_text{
+			font-size: 44rpx;
+		}
+		.two_text{
+			font-size: 22rpx;
+		}
+		image{
+			position: absolute;
+			right: 26rpx;
+			bottom: 0rpx;
+			width: 240rpx;
+			height: auto;
+			z-index: 2;
+		}
+	}
+	// 导航
+	.grid_outer{
+		.icon{
+			font-size: 60rpx;
+			color: #FFFFFF;
+			width: 100rpx;
+			height: 100rpx;
+			border-radius: 100rpx;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-shadow: 0rpx 0rpx 8rpx rgba(0,0,0,0.3);
+		}
+		.grid-text{
+			font-size: 24rpx;
+			color: #232323;
+			margin-top: 14rpx;
+		}
+		&/deep/.u-grid-item-box{
+			padding: 20rpx 0rpx;
+		}
+	}
+	// 未解答的问题
+	.unanswered{
+		padding: 20rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 28rpx;
+		line-height: 28rpx;
+		color: #003399;
+		.icon{
+			font-size: 26rpx;
+			margin-right: 8rpx;
+		}
+	}
+}

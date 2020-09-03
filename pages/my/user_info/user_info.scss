@@ -1,0 +1,45 @@
+.user_info{
+	.slot-wrap{
+		margin-right: 30rpx;
+		color: #003399;
+		font-size: 28rpx;
+	}
+	.top_info{
+		padding: 0rpx 26rpx;
+		background-color: #FFFFFF;
+		margin-bottom: 20rpx;
+		.cell_item{
+			align-items: center;
+			padding: 30rpx 6rpx;
+			.right_input{
+				height: 55rpx;
+				font-size: 28rpx;
+				line-height: 55rpx;
+				text-align: right;
+			}
+		}
+	}
+	.bottom_info{
+		padding: 0rpx 26rpx;
+		background-color: #FFFFFF;
+		.cell_item{
+			align-items: center;
+			padding: 30rpx 6rpx;
+		}
+		.all_tags{
+			border-bottom: 1rpx solid rgba(0,0,0,0.1);
+			display: flex;
+			flex-wrap: wrap;
+			.one_tag{
+				font-size: 24rpx;
+				color: #003399;
+				line-height: 42rpx;
+				padding: 0rpx 18rpx;
+				margin-right: 20rpx;
+				margin-bottom: 20rpx;
+				border-radius: 10rpx;
+				background-color: #FFCC66;
+			}
+		}
+	}
+}

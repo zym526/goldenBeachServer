@@ -1,0 +1,69 @@
+.work_certificate{
+	.work_image{
+		padding: 30rpx;
+		margin-bottom: 30rpx;
+		background-color: #FFFFFF;
+		.work_text_title{
+			color: #1B1B20;
+			font-size: 30rpx;
+		}
+		.work_image_outer{
+			margin-top: 30rpx;
+			display: flex;
+			justify-content: center;
+			.work_one_image{
+				width: calc(50% - 21.5rpx);
+				padding: 28rpx 40rpx 89rpx;
+				background-color: #F4F8FE;
+				position: relative;
+				border-radius: 10rpx;
+				image{
+					width: 100%;
+					height: auto;
+				}
+				.bottom_work_text{
+					position: absolute;
+					bottom: 0rpx;
+					left: 0rpx;
+					width: 100%;
+					font-size: 28rpx;
+					line-height: 60rpx;
+					color: #FFFFFF;
+					background-color: #003399;
+					text-align: center;
+					border-radius: 0rpx 0rpx 10rpx 10rpx;
+				}
+			}
+		}
+	}
+	.requirement{
+		padding: 40rpx 30rpx;
+		background-color: #FFFFFF;
+		.requirement_title{
+			font-size: 30rpx;
+			color: #1B1B20;
+			margin-bottom: 30rpx;
+		}
+		.requirement_desc_one,.requirement_desc_two{
+			font-size: 26rpx;
+			color: #919191;
+			text{
+				color: #E73146;
+			}
+		}
+		image{
+			width: 100%;
+			height: auto;
+			margin-top: 66rpx;
+		}
+	}
+	.btn_bottom{
+		margin: 57rpx 30rpx 20rpx;
+		background-color: #003399;
+		height: 88rpx;
+		border-radius: 10rpx;
+		color: #FFFFFF;
+		font-size: 36rpx;
+		line-height: 88rpx;
+	}
+}
